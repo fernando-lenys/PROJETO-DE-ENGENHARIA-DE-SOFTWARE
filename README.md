@@ -1,66 +1,108 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SISTEMA DE GERENCIAMENTO DE TAREFAS
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## ESCOPO DO SISTEMA
 
-## About Laravel
+O objetivo do Sistema de Gerenciamento de Tarefas é fornecer uma plataforma para indivíduos planejarem e executarem suas tarefas de forma eficaz. Suas principais features incluem:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. **Cadastro de Usuários:** Permite que os mesmos criem uma conta no sistema, fornecendo informações como nome, e-mail e senha.
+2. **Criação de Tarefas:** Permite aos usuários criar novas tarefas, inserindo título, descrição, prazo e outras informações relevantes.
+3. **Edição de Tarefas:** Permite aos usuários editar tarefas existentes.
+4. **Remoção de Tarefas:** Permite aos usuários excluir tarefas que não são mais relevantes, removendo-as do sistema.
+5. **Listagem de Tarefas:** Apresenta uma lista de todas as tarefas cadastradas.
+6. **Notificações de Prazo:** Alertas automáticos que notificam aos usuários quando uma tarefa está prestes a vencer.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## MEMBROS DA EQUIPE E PAPÉIS
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. **Fernando Lenys Silva Fernandes:** Full Stack
+2. **Italo Ruan Meneses da Costa:** Dev Backend
+3. **José Uitelo Menezes Gomes:** Full Stack
+4. **Maria Kailane da Silva Castro:** Dev Backend
+5. **Tiago Yvens Germano Martins:** Dev Backend
 
-## Learning Laravel
+## TECNOLOGIAS
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- **Trello**
+- **PHP**
+- **MySQL**
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## BACKLOG DO PRODUTO
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Como um usuário comum, eu gostaria de me cadastrar no sistema.
+2. Como um usuário comum, eu gostaria de fazer login na minha conta.
+3. Como um usuário comum, eu gostaria de adicionar uma nova tarefa.
+4. Como um usuário comum, eu gostaria de editar e deletar uma tarefa.
+5. Como um usuário comum, eu gostaria de listar minhas tarefas.
+6. Como um usuário comum, eu gostaria de definir uma data de vencimento para uma tarefa.
+7. Como um usuário comum, eu gostaria de receber notificações quando uma tarefa estiver próxima do prazo de vencimento.
+8. Como um usuário comum, eu gostaria de marcar uma tarefa como concluída.
+9. Como um usuário comum, eu gostaria de criar listas de tarefas separadas por categorias.
+10. Como um usuário comum, eu gostaria de definir prioridades para minhas tarefas.
+11. Como um líder de um time, eu gostaria de criar um grupo com membros dentro do sistema.
+12. Como um líder de um time, eu gostaria de atribuir tarefas aos membros do time.
+13. Como um líder de um time, eu gostaria de monitorar o progresso das tarefas atribuídas.
+14. Como um líder de um time, eu gostaria de enviar feedback sobre os trabalhos dos membros.
+15. Como um membro de um time, eu gostaria de receber notificações sobre novas tarefas atribuídas a mim.
+16. Como um membro de um time, eu gostaria de solicitar feedback sobre o meu trabalho.
 
-## Laravel Sponsors
+## BACKLOG DO SPRINT
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+1. Como um usuário comum, eu gostaria de me cadastrar no sistema.
 
-### Premium Partners
+   RECURSOS:
+   - Desenvolvimento da interface de registro: **Fernando Lenys Silva Fernandes** (3 dias úteis).
+   - Backend para armazenamento de dados de usuário: **Italo Ruan Meneses da Costa** (4 dias úteis).
+   - Implementação do banco de dados e integrações do sistema: **Fernando Lenys Silva Fernandes** e **Italo Ruan Meneses da Costa** (5 dias úteis).
+   
+   CRITÉRIOS DE ACEITAÇÃO:
+   - O usuário pode acessar a página de registro.
+   - O usuário pode preencher um formulário de registro com nome de usuário, e-mail e senha.
+   - O sistema armazena os dados fornecidos pelo usuário.
+   - Após o registro, o usuário pode fazer login com os dados fornecidos.
+     
+2. Como um usuário comum, eu gostaria de adicionar uma nova tarefa.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+   RECURSOS:
+   - Desenvolvimento da interface de adição de tarefa: **Fernando Lenys Silva Fernandes** (3 dias úteis).
+   - Backend para adicionar tarefa ao banco de dados: **Maria Kailane da Silva Castro** (4 dias úteis).
+   - Implementação do banco de dados e integrações do sistema: **Fernando Lenys Silva Fernandes** e **Maria Kailane da Silva Castro** (4 dias úteis).
+     
+   CRITÉRIOS DE ACEITAÇÃO:
+   - O usuário pode acessar a página de adição de tarefas.
+   - O usuário pode preencher um formulário com título, descrição e outras informações relevantes para a tarefa.
+   - O sistema salva a nova tarefa no banco de dados.
+   - A nova tarefa é exibida corretamente na lista de tarefas do usuário.
 
-## Contributing
+3. Como um usuário comum, eu gostaria de editar e deletar uma tarefa.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+   RECURSOS:
+   - Desenvolvimento da interface de edição e exclusão de tarefa: **José Uitelo Menezes Gomes** (3 dias úteis).
+   - Backend para editar e deletar tarefas: **Tiago Yvens Germano Martins** (4 dias úteis).
+   - Implementação do banco de dados e integrações do sistema: **José Uitelo Menezes Gomes** e **Tiago Yvens Germano Martins** (4 dias úteis).
+     
+   CRITÉRIOS DE ACEITAÇÃO:
+   - O usuário pode acessar as páginas de edição e remoção de tarefas.
+   - O usuário pode editar uma tarefa existente, alterando seu título, descrição ou data de vencimento.
+   - O usuário pode excluir uma tarefa existente.
+   - As alterações feitas pelo usuário são exibidas corretamente na lista de tarefas.
 
-## Code of Conduct
+4. Como um usuário comum, eu gostaria de listar minhas tarefas.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+   RECURSOS:
+   - Desenvolvimento da interface de listagem de tarefas: **Fernando Lenys Silva Fernandes** (3 dias úteis).
+   - Backend para listar tarefas do usuário: **Maria Kailane da Silva Castro** (4 dias úteis).
+   - Implementação do banco de dados e integrações do sistema: **Fernando Lenys Silva Fernandes** e **Maria Kailane da Silva Castro** (4 dias úteis).
+   
+   CRITÉRIOS DE ACEITAÇÃO:
+   - O usuário pode acessar sua lista de tarefas.
+   - Todas as tarefas do usuário são exibidas corretamente na lista.
 
-## Security Vulnerabilities
+5. Como um usuário comum, eu gostaria de definir uma data de vencimento para uma tarefa.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+   RECURSOS:
+   - Desenvolvimento da interface para definir data de vencimento: **José Uitelo Menezes Gomes** (3 dias úteis).
+   - Backend para armazenar data de vencimento da tarefa: **Italo Ruan Meneses da Costa** (4 dias úteis).
+   - Implementação do banco de dados e integrações do sistema: **José Uitelo Menezes Gomes** e **Italo Ruan Meneses da Costa** (4 dias úteis).
+   
+   CRITÉRIOS DE ACEITAÇÃO:
+   - O usuário pode definir uma data de vencimento para a tarefa.
+   - A data de vencimento é exibida corretamente ao lado da tarefa na lista de tarefas do usuário.

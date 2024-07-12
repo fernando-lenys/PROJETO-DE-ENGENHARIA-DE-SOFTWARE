@@ -2,7 +2,7 @@
     <div class="container h-100 mt-5">
     <div class="row h-100 justify-content-center align-items-center">
         <div class="col-10 col-md-8 col-lg-6">
-        <h3>Add a Post</h3>
+        <h3>Add a Task</h3>
         <form action="{{ route('tasks.store') }}" method="post">
             @csrf
             <div class="form-group">

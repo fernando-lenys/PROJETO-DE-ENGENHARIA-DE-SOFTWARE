@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 
 // returns the home page with all tasks
-Route::get('/', TaskController::class .'@index')->name('tasks.index');
+Route::get('/tasks', TaskController::class .'@index')->name('tasks.index');
 // returns the form for adding a task
 Route::get('/tasks/create', TaskController::class . '@create')->name('tasks.create');
 // adds a post to the database

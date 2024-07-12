@@ -12,8 +12,11 @@ class TaskController extends Controller
      */
     public function index()
     {
-        $tasks = Task::all();
-        return view('tasks.index', compact('tasks'));
+        $user = auth()->user();
+        
+        $tasks = $user->tasks;
+        
+        return view('tasks.index')->with("tasks",$tasks);
     }
 
     public function create()
